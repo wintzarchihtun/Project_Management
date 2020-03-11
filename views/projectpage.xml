@@ -1,0 +1,24 @@
+<odoo>
+    <template id="project_page" name="Project">
+           <t t-call="website.layout">
+                 <div class="row">
+                <div class="col-md-4" style="background-color:red">
+                    <h2 >AAAAAAAAAAAA</h2>
+                </div>
+                <div class="col-md-4" style="background-color:blue" ><h2>BBBBBBBBBB</h2></div>
+                <div class="col-md-4" style="background-color:green"><h2> CCCCCCCCCC</h2></div>
+            </div>
+
+            <div class="container">
+                <t t-foreach="a" t-as="b">
+
+                        <h1>Project Name :<t t-esc="b.progress"/></h1>
+
+
+
+
+                </t>
+            </div>
+         </t>
+    </template>
+</odoo>
